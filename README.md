@@ -1,4 +1,4 @@
-                        ##[JS review]
+                        # JS review
 
         Js fundamentals part 1
 
@@ -107,8 +107,43 @@ and template literal insert exprssion not statements
     we can use it in template literal
 
 ![Alt text](image.png)
+![Alt text](jsversions.png)
 
      Js fundamentals part 2
 
+1. activating strict mode
 
+   will treat errors more strictly
 
+2. functions
+   1.declaration
+   2.expression
+   3.arrow(Concise Body Arrow Functions) -----Functions that take only a single parameter do not need that parameter to be enclosed in parentheses. However, if a function takes zero or multiple parameters, parentheses are required.
+   ![Alt text](https://content.codecademy.com/courses/learn-javascript-functions/Diagram/parameters.svg)
+   ------A function body composed of a single-line block does not need curly braces. Without the curly braces, whatever that line evaluates will be automatically returned. The contents of the block should immediately follow the arrow => and the return keyword can be removed. This is referred to as implicit return.
+   ![Alt text](https://content.codecademy.com/courses/learn-javascript-functions/Diagram/return.svg)
+
+3. scope
+   Scope defines where variables can be accessed or referenced. While some variables can be accessed from anywhere within a program, other variables may only be available in a specific context.
+4. arrays
+   push unshift ,,, pop shift
+
+5. objects
+
+assigning value for arrays of data similar to array
+
+any funtion that is attached to a object is called Method
+
+"this" keyword in javascript refers to an object when we are using it in method
+
+6. Break and continue
+
+The break statement "jumps out" of a loop.
+
+The continue statement "jumps over" one iteration in the loop.
+
+7. loop
+   backward i--
+   forward i++
+
+8. while loop
