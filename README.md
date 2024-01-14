@@ -147,3 +147,14 @@ The continue statement "jumps over" one iteration in the loop.
    forward i++
 
 8. while loop
+
+   devloper skills
+
+9. prettier
+
+10. vs snippet
+11. debugging
+12. using extensions
+13. using console and breaking points
+14. JS runtime such as node js
+15. using stackoverflow and mdn
