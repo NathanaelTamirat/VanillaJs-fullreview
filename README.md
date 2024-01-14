@@ -142,15 +142,15 @@ The break statement "jumps out" of a loop.
 
 The continue statement "jumps over" one iteration in the loop.
 
-7. loop
-   backward i--
-   forward i++
+7.  loop
+    backward i--
+    forward i++
 
-8. while loop
+8.  while loop
 
-   devloper skills
+    devloper skills
 
-9. prettier
+9.  prettier
 
 10. vs snippet
 11. debugging
@@ -158,3 +158,15 @@ The continue statement "jumps over" one iteration in the loop.
 13. using console and breaking points
 14. JS runtime such as node js
 15. using stackoverflow and mdn
+
+                what is DOM and what is DOM manipulation?
+
+16.the DOM is used to represent a web page as a tree
+of objects. Each node in the tree represents an element on the page, such as a heading, a paragraph, or an image. You can use the DOM to manipulate the page's content, style, and behavior.
+
+adding event listeners
+dom manipulations
+
+DRY-----dont repeat your self principle
+
+refactoring is to fix duplicated codes
