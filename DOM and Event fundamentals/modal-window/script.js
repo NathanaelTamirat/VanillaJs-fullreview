@@ -4,7 +4,6 @@ const overlay = document.querySelector('.overlay');
 const close = document.querySelector('.close-modal');
 const btnShowModal = document.querySelectorAll('.show-modal');
 // console.log(btnShowModal); /// to show the node
-
 const openModal = function () {
   modal.classList.remove('hidden');
   overlay.classList.remove('hidden');
@@ -13,14 +12,18 @@ const openModal = function () {
 for (let i = 0; i < btnShowModal.length; i++) {
   btnShowModal[i].addEventListener('click', openModal);
 }
-
 const closeModal = function () {
   modal.classList.add('hidden');
   overlay.classList.add('hidden');
 };
-
 close.addEventListener('click', closeModal);
 overlay.addEventListener('click', closeModal);
+document.addEventListener('keydown', function (e) {
+  // console.log(e.key);
+  if (e.key === 'Escape' && !modal.classList.contains('hidden')) {
+    closeModal();
+  }
+});
 
 ///////another way using style
 // for (let i = 0; i < btnShowModal.length; i++) {
